@@ -1,0 +1,11 @@
+footer {
+  height: 5.7em;
+  background-image: url(../../../assets/footerImg.jpg);
+}
+
+p {
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+  margin: 10px;
+}
