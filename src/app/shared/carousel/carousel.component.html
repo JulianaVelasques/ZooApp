@@ -1,0 +1,25 @@
+<swiper
+  [effect]="'coverflow'"
+  [grabCursor]="true"
+  [centeredSlides]="true"
+  [slidesPerView]="'auto'"
+  [coverflowEffect]="{
+    rotate: 50,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: true
+  }"
+  [pagination]="true"
+  class="mySwiper"
+>
+  <ng-template swiperSlide><app-card></app-card></ng-template
+  ><ng-template swiperSlide><app-card></app-card></ng-template
+  ><ng-template swiperSlide><app-card></app-card></ng-template
+  ><ng-template swiperSlide><app-card></app-card></ng-template
+  ><ng-template swiperSlide><app-card></app-card></ng-template
+  ><ng-template swiperSlide><app-card></app-card></ng-template
+  ><ng-template swiperSlide><app-card></app-card></ng-template
+  ><ng-template swiperSlide><app-card></app-card></ng-template
+  ><ng-template swiperSlide><app-card></app-card></ng-template>
+</swiper>

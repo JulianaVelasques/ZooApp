@@ -12,9 +12,13 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatCardModule } from '@angular/material/card';
+import { SwiperModule } from 'swiper/angular';
+import { CarouselComponent } from './shared/carousel/carousel.component';
+import { CardComponent } from './shared/card/card.component';
+import { AddAnimalComponent } from './views/add-animal/add-animal.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, HeaderComponent, FooterComponent],
+  declarations: [AppComponent, HomeComponent, HeaderComponent, FooterComponent, CarouselComponent, CardComponent, AddAnimalComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -23,6 +27,7 @@ import { MatCardModule } from '@angular/material/card';
     MatIconModule,
     MatDividerModule,
     MatCardModule,
+    SwiperModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

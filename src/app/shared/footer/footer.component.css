@@ -1,6 +1,8 @@
 footer {
-  height: 5.7em;
   background-image: url(../../../assets/footerImg.jpg);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 p {
