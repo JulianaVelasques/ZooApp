@@ -1,27 +1,72 @@
-# ZooHapp
+<h1 align="center"> ZooHapp <h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
+<h4 align="center">
+  🚀 Happmob Frontend Test.
+</h4>
 
-## Development server
+<p align="center">
+  
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/JulianaVelasques/ZooApp">
+  
+  <a href="https://github.com/JulianaVelasques/ZooApp/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/JulianaVelasques/ZooApp">
+  </a>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+  <a href="https://github.com/JulianaVelasques/ZooApp/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/JulianaVelasques/ZooApp">
+  </a>
 
-## Code scaffolding
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<p align="center">
+  <a href="#page_with_curl-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#wrench-built-with">Built With</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to Contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#sweat_smile-known-issues">Known Issues</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
+  
+ ## Demonstration
+  <div align='center'><img src="src/assets/Demo.gif" alt="Demo" width="500" /></div>
+  
 
-## Build
+  
+## :page_with_curl: About
+The ZooApp was created for the frontend test at Happmob. This is an App that consults the ZooAnimal API and retrieves the data on the user interface.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Motivation
+This app was created to fulfill a code test for a junior frontend role at Happmobi.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## :wrench: Built With
 
-## Further help
+- [Angular](https://angular.io/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [JavaScript](https://www.javascript.com/)
+- [ZooAnimal - API](https://zoo-animal-api.herokuapp.com/)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🤔 How to Contribute
+
+- Clone the project: `git clone git@github.com:JulianaVelasques/letsbike.git`;
+- Create your branch with your feature: `git checkout -b my-feature`;
+- Install the dependencies: `npm install` and `yarn add`
+- Commit your feature: `git commit -m 'feat: My new feature'`;
+- Push to your branch: `git push -u origin my-feature`.
+
+After the merge of your pull request is done, you can delete your branch.
+  
+## :sweat_smile: Future releases:
+  - Include CRUD to allow user add more animals and edit/delete.
+ 
+## :memo: License
+
+This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
+
+---
+
+Made with ♥ by <tr>
+    <td align="center"><a href="https://github.com/JulianaVelasques"><b>Juliana Velasques</b></a><br /></td>
+<tr>
