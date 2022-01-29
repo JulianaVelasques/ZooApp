@@ -50,7 +50,7 @@ This app was created to fulfill a code test for a junior frontend role at Happmo
 
 ## 🤔 How to Contribute
 
-- Clone the project: `git clone git@github.com:JulianaVelasques/letsbike.git`;
+- Clone the project: `git clone git@github.com:JulianaVelasques/ZooApp.git`;
 - Create your branch with your feature: `git checkout -b my-feature`;
 - Install the dependencies: `npm install` and `yarn add`
 - Commit your feature: `git commit -m 'feat: My new feature'`;
