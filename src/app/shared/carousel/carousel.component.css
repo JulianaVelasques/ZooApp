@@ -2,20 +2,43 @@
 @import "swiper/swiper.scss";
 /* @import "swiper/effect-coverflow.scss";
 @import "~swiper/css/pagination"; */
+
 .swiper {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
 }
-
 .swiper-slide img {
   display: block;
   width: 100%;
+}
+.container {
+  max-width: 300px;
+}
+.info-animal {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.width-info {
+  max-width: 150px;
+}
+.label {
+  font-weight: bold;
+  font-size: 1em;
+}
+.label p {
+  font-weight: normal;
+}
+.header-image img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
